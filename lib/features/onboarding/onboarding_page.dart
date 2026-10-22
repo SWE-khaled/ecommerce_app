@@ -1,4 +1,4 @@
-import 'package:e_commerce/features/auth/view/base_auth_page.dart';
+import 'package:e_commerce/features/auth/view/create_account_page.dart';
 import 'package:flutter/material.dart';
 
 class OnboardingPage extends StatelessWidget {
