@@ -4,3 +4,6 @@ part of 'posts_cubit.dart';
 sealed class PostsState {}
 
 final class PostsInitial extends PostsState {}
+final class PostsLoadingState extends PostsState {}
+final class PostsErrorState extends PostsState {}
+final class PostsSuccessState extends PostsState {}
